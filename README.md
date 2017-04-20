@@ -31,3 +31,4 @@ where
 ```
 
 # Задание 3: модуль .NET
+[Клик](https://github.com/qdimka/exercise/tree/master/exercise)
