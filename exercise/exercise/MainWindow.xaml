@@ -1,0 +1,17 @@
+﻿<Window x:Class="exercise.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:exercise"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="141.471" Width="330.706">
+    <Grid>
+        <TextBox x:Name="postTitle" HorizontalAlignment="Left" Height="23" Margin="29,26,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="categoryTitle" HorizontalAlignment="Left" Height="23" Margin="176,26,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="categoryButton" Content="Создать" HorizontalAlignment="Left" Margin="176,68,0,0" VerticalAlignment="Top" Width="120" Click="categoryButton_Click"/>
+        <Label x:Name="label" Content="Пост" HorizontalAlignment="Left" Margin="29,0,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy" Content="Категория" HorizontalAlignment="Left" Margin="176,0,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="postButton" Content="Создать" HorizontalAlignment="Left" Margin="29,68,0,0" VerticalAlignment="Top" Width="120" Click="postButton_Click"/>
+    </Grid>
+</Window>
