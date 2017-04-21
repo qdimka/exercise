@@ -62,7 +62,7 @@ namespace exercise
                 return;
             }
 
-            if (!repo.isPostExists(title))
+            if (!repo.isCategoriesExists(title))
             {
                 //insert into db
                 string message = $"{title} создан!";
